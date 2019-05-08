@@ -2,8 +2,8 @@
   <el-container id="app">
     <el-header>
       <el-row>
-        <el-col :span="2" id="el-logo">
-          <h1>LOGOMARCA</h1>
+        <el-col :span="4" id="el-logo">
+          <h1>Sistema de Gerenciamento</h1>
         </el-col>
       </el-row>
     </el-header>
@@ -69,12 +69,12 @@ export default {
       border-right: none;
 
       .el-menu-title {
-        background: #57b180;
-        color: #e6e6e6;
+        background: #409EFF;
+        color: #fff;
         display: block;
-        padding: 14px 24px;
+        padding: 14px 8px;
         font-weight: bold;
-        border-bottom: 2px solid #ebebeb;
+        
 
         i {
           margin-right: 6px;
@@ -89,7 +89,7 @@ export default {
     #el-logo {
       h1 {
         padding: 13px 0px;
-        color: #57b180;
+        color: #409EFF;
       }
     }
     
@@ -119,6 +119,12 @@ export default {
       padding-left: 20px;
     }
   }
+}
+.el-form-label {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0px;
+  font-weight: 300;
 }
 
 </style>
